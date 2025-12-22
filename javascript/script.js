@@ -1,7 +1,7 @@
 // script.js
 
 // Seleciona o elemento HTML com o id 'mensagem'
-const mensagemElemento = document.getElementById('mensagem');
+/*const mensagemElemento = document.getElementById('mensagem');
 const testeElemento = document.getElementById('teste')
 
 // Modifica o texto do elemento
@@ -23,4 +23,24 @@ console.log("Número de ponto flutuante: " + floatNumero); // 3.14
 let strNumero = "50";
 let numero = +strNumero;
 
-console.log("Número: " + numero); // 50
+console.log("Número: " + numero);*/ // 50
+
+
+/*function somar(n1, n2){
+    return n1 + n2;
+}
+
+let Resutado = somar(10, 20)
+
+console.log(` o resetado é ${Resutado}`)*/
+
+let numero = parseInt(prompt("digite um numero"));
+
+if (numero  > 5){
+    console.log("é maior que 5")
+}else if(numero < 5){
+    console.log("é menor que 5")
+}else{
+    console.log("é igual a 5")
+}
+
