@@ -34,7 +34,7 @@ let Resutado = somar(10, 20)
 
 console.log(` o resetado é ${Resutado}`)*/
 
-let numero = parseInt(prompt("digite um numero"));
+/*let numero = parseInt(prompt("digite um numero"));
 
 if (numero  > 5){
     console.log("é maior que 5")
@@ -42,5 +42,23 @@ if (numero  > 5){
     console.log("é menor que 5")
 }else{
     console.log("é igual a 5")
+}*/
+
+let modo = prompt("Escolha um modo: dark, red ou blue");
+ 
+switch (modo) {
+  case "dark":
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
+    break;
+  case "red":
+    document.body.style.backgroundColor = "red";
+    break;
+  default:
+    document.body.style.backgroundColor = "pink";
 }
 
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}

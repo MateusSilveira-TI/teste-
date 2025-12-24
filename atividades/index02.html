@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Web Semântica Expandida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #272f36;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #7094b8;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section, article {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        h2, h3 {
+            color: #8a95a0;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <header id="inicio">
+        <h1>Minha Página Web</h1>
+        <h2>HTML Semântico com Multimídia</h2>
+        <p>
+            Esta página foi criada para demonstrar o uso correto de tags semânticas,
+            estilos inline e elementos multimídia em HTML.
+        </p>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#artigo">Artigo</a></li>
+            <li><a href="#lista">Lista</a></li>
+            <li><a href="#midia">Mídia</a></li>
+        </ul>
+    </nav>
+
+    
+    <main>
+
+        
+        <article id="artigo">
+            <h2>O que é HTML Semântico?</h2>
+            <p>
+                HTML semântico utiliza tags que descrevem claramente o significado
+                do conteúdo da página, tornando-a mais acessível, organizada
+                e fácil de entender.
+            </p>
+        </article>
+
+        <section id="lista">
+            <h3>Benefícios do HTML Semântico</h3>
+            <ul>
+                <li>Melhora a acessibilidade</li>
+                <li>Facilita a manutenção do código</li>
+                <li>Ajuda no SEO</li>
+            </ul>
+        </section>
+
+        <section id="midia">
+            <h3>Conteúdo Multimídia</h3>
+
+            <p>Exemplo de áudio:</p>
+            <audio controls>
+                <source src="./notification-echo-455517.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+
+            <p>Exemplo de vídeo:</p>
+            <video controls width="400">
+                <source src="2890236-hd_1920_1080_30fps.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+            
+        </section>
+
+    </main>
+
+</body>
+</html>
