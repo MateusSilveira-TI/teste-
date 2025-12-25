@@ -8,7 +8,7 @@ const Efect = () => {
 
   useEffect(() => {
     console.log("Só rodo quando o contador muda!");
-  }, [count]); // Dependência monitorada
+  }, [count]); 
 
   return <button onClick={() => setCount(count + 1)}>Contar: {count} </button>;
 };
